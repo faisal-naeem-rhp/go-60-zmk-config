@@ -199,7 +199,7 @@
 &trans  &trans          &trans             &trans              &trans         &trans                                                           &trans        &trans         &trans        &trans        &trans          &trans
 &trans  &kp GRAVE       &kp DOUBLE_QUOTES  &kp NUHS            &kp DOLLAR     &kp PERCENT                                                      &kp CARET     &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT        &trans
 &trans  &hmsl LSHFT N1  &hml LGUI N2       &hml LALT NUMBER_3  &hml LCTRL N4  &kp N5                                                           &kp NUMBER_6  &hmr RCTRL N7  &hmr LALT N8  &hmr RGUI N9  &hmr RSHIFT N0  &trans
-&trans  &kp BSLH        &kp SINGLE_QUOTE   &trans              &kp GRAVE      &trans                                                           &trans        &kp AMPERSAND  &kp ASTRK     &kp LPAR      &kp RPAR        &trans
+&trans  &kp BSLH        &kp SINGLE_QUOTE   &kp POUND           &kp GRAVE      &trans                                                           &trans        &kp AMPERSAND  &kp ASTRK     &kp LPAR      &kp RPAR        &trans
                         &trans             &trans              &trans                                                                                        &trans         &trans        &trans
                                                                                            &sk LSHIFT  &trans  &trans  &trans  &trans  &trans
             >;
@@ -224,6 +224,17 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LS(RC(TAB))  &kp LC(TAB)  &trans  &trans
                 &trans  &trans  &trans                                                                  &trans  &trans           &trans
                                                 &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        ctrl_mod {
+            bindings = <
+&trans  &trans     &trans     &trans     &trans     &trans                                                  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans                                                  &kp LC(Y)  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans                                                  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                                                  &trans     &trans  &trans  &trans  &trans  &trans
+                   &trans     &trans     &trans                                                                        &trans  &trans  &trans
+                                                            &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
