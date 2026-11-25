@@ -196,12 +196,12 @@
 
         sym_num {
             bindings = <
-&trans  &trans     &trans             &trans    &trans      &trans                                                           &trans        &trans         &trans     &trans    &trans    &trans
-&trans  &kp GRAVE  &kp DOUBLE_QUOTES  &kp NUHS  &kp DOLLAR  &kp PERCENT                                                      &kp CARET     &kp MINUS      &kp EQUAL  &kp LBKT  &kp RBKT  &trans
-&trans  &kp N1     &kp N2             &kp N3    &kp N4      &kp N5                                                           &kp NUMBER_6  &kp N7         &kp N8     &kp N9    &kp N0    &trans
-&trans  &kp BSLH   &kp SINGLE_QUOTE   &trans    &kp GRAVE   &trans                                                           &trans        &kp AMPERSAND  &trans     &trans    &trans    &trans
-                   &trans             &trans    &trans                                                                                     &trans         &trans     &trans
-                                                                         &sk LSHIFT  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans             &trans              &trans         &trans                                                           &trans        &trans         &trans        &trans        &trans          &trans
+&trans  &kp GRAVE       &kp DOUBLE_QUOTES  &kp NUHS            &kp DOLLAR     &kp PERCENT                                                      &kp CARET     &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT        &trans
+&trans  &hmsl LSHFT N1  &hml LGUI N2       &hml LALT NUMBER_3  &hml LCTRL N4  &kp N5                                                           &kp NUMBER_6  &hmr RCTRL N7  &hmr LALT N8  &hmr RGUI N9  &hmr RSHIFT N0  &trans
+&trans  &kp BSLH        &kp SINGLE_QUOTE   &trans              &kp GRAVE      &trans                                                           &trans        &kp AMPERSAND  &kp ASTRK     &kp LPAR      &kp RPAR        &trans
+                        &trans             &trans              &trans                                                                                        &trans         &trans        &trans
+                                                                                           &sk LSHIFT  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
