@@ -221,7 +221,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans           &trans       &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LA(LS(TAB))  &kp LA(TAB)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans           &kp TAB      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LS(RC(TAB))  &kp LA(TAB)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LS(RC(TAB))  &kp LC(TAB)  &trans  &trans
                 &trans  &trans  &trans                                                                  &trans  &trans           &trans
                                                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
