@@ -221,22 +221,22 @@
 
         nav {
             bindings = <
-&trans  &trans     &trans      &trans             &trans           &trans                                                   &trans   &trans          &trans         &trans     &trans     &trans
-&trans  &trans     &trans      &trans             &trans           &trans                                                   &trans   &kp HOME        &kp UP_ARROW   &kp END    &trans     &trans
-&trans  &kp LSHFT  &kp RGUI    &kp LALT           &kp LCTRL        &kp INS                                                  &kp DEL  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &sk LSHFT  &trans
-&trans  &trans     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                                                   &trans   &kp PG_UP       &kp BACKSPACE  &kp PG_DN  &trans     &trans
-                   &trans      &trans             &trans                                                                             &trans          &trans         &trans
-                                                                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans      &trans             &trans           &trans                                                    &trans   &trans          &trans         &trans     &trans     &trans
+&trans  &trans     &trans      &trans             &trans           &trans                                                    &trans   &kp HOME        &kp UP_ARROW   &kp END    &trans     &trans
+&trans  &kp LSHFT  &kp RGUI    &kp LALT           &kp LCTRL        &kp INS                                                   &kp DEL  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &sk LSHFT  &trans
+&trans  &trans     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                                                    &trans   &trans          &kp BACKSPACE  &trans     &trans     &trans
+                   &trans      &trans             &trans                                                                              &trans          &trans         &trans
+                                                                            &trans  &trans  &trans  &trans  &trans  &kp RET
             >;
         };
 
         tab {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans           &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LA(LS(TAB))  &kp LA(TAB)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LS(TAB)      &kp TAB      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &kp LS(RC(TAB))  &kp LC(TAB)  &trans  &trans
-                &trans  &trans  &trans                                                                  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans     &trans           &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_UP  &kp LA(LS(TAB))  &kp LA(TAB)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_DN  &kp LS(TAB)      &kp TAB      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_DN  &kp LS(RC(TAB))  &kp LC(TAB)  &trans  &trans
+                &trans  &trans  &trans                                                                  &trans     &trans           &trans
                                                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
