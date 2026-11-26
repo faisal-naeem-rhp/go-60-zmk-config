@@ -188,12 +188,12 @@
 
         fn-key-layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans   &trans                                                   &trans  &trans   &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans   &trans                                                   &trans  &trans   &trans  &trans  &trans   &trans
-&trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5                                                   &kp F6  &kp F7   &kp F8  &kp F9  &kp F10  &trans
-&trans  &trans  &trans  &trans  &kp F11  &trans                                                   &trans  &kp F12  &trans  &trans  &trans   &trans
-                &trans  &trans  &trans                                                                    &trans   &trans  &trans
-                                                 &trans  &trans  &trans  &trans  &trans  &kp RET
+&trans  &trans  &trans  &trans  &trans   &trans                                                  &trans  &trans   &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans   &trans                                                  &trans  &trans   &trans  &trans  &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5                                                  &kp F6  &kp F7   &kp F8  &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &kp F11  &trans                                                  &trans  &kp F12  &trans  &trans  &trans   &trans
+                &trans  &trans  &trans                                                                   &trans   &trans  &trans
+                                                 &to 1  &trans  &trans  &trans  &trans  &kp RET
             >;
         };
 
@@ -211,7 +211,7 @@
         sym_num {
             bindings = <
 &trans  &trans          &trans             &trans              &trans         &trans                                                           &trans        &trans         &trans        &trans        &trans          &trans
-&trans  &kp GRAVE       &kp DOUBLE_QUOTES  &kp NUHS            &kp DOLLAR     &kp PERCENT                                                      &kp CARET     &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT        &trans
+&trans  &kp EXCL        &kp DOUBLE_QUOTES  &kp NUHS            &kp DOLLAR     &kp PERCENT                                                      &kp CARET     &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT        &trans
 &trans  &hmsl LSHFT N1  &hml LGUI N2       &hml LALT NUMBER_3  &hml LCTRL N4  &kp N5                                                           &kp NUMBER_6  &hmr RCTRL N7  &hmr LALT N8  &hmr RGUI N9  &hmr RSHIFT N0  &trans
 &trans  &kp BSLH        &kp SINGLE_QUOTE   &kp POUND           &kp GRAVE      &trans                                                           &trans        &kp AMPERSAND  &kp ASTRK     &kp LPAR      &kp RPAR        &trans
                         &trans             &trans              &trans                                                                                        &trans         &trans        &trans
