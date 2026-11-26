@@ -232,11 +232,11 @@
 
         tab {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans     &trans           &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_UP  &kp LA(LS(TAB))  &kp LA(TAB)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_DN  &kp LS(TAB)      &kp TAB      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_DN  &kp LS(RC(TAB))  &kp LC(TAB)  &trans  &trans
-                &trans  &trans  &trans                                                                  &trans     &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans     &trans       &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_UP  &trans       &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_DN  &kp LS(TAB)  &kp TAB  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp PG_DN  &trans       &trans   &trans  &trans
+                &trans  &trans  &trans                                                                  &trans     &trans       &trans
                                                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
