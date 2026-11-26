@@ -221,12 +221,12 @@
 
         nav {
             bindings = <
-&trans  &trans     &trans      &trans             &trans           &trans                                                     &trans     &trans          &trans         &trans     &trans     &trans
-&trans  &trans     &trans      &trans             &trans           &trans                                                     &kp PG_UP  &kp HOME        &kp UP_ARROW   &kp END    &trans     &trans
-&trans  &kp LSHFT  &kp LGUI    &kp LALT           &kp LCTRL        &kp INS                                                    &kp DEL    &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &kp LSHFT  &trans
-&trans  &trans     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                                                     &kp PG_DN  &kp LS(TAB)     &kp BACKSPACE  &kp TAB    &trans     &trans
-                   &trans      &trans             &trans                                                                                 &trans          &trans         &trans
-                                                                            &trans  &trans  &trans  &trans  &kp ESC  &kp RET
+&trans  &trans     &trans      &trans             &trans           &trans                                                         &trans     &trans          &trans         &trans     &trans     &trans
+&trans  &trans     &trans      &trans             &trans           &trans                                                         &kp PG_UP  &kp HOME        &kp UP_ARROW   &kp END    &trans     &trans
+&trans  &kp LSHFT  &kp LGUI    &kp LALT           &kp LCTRL        &kp INS                                                        &kp DEL    &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &kp LSHFT  &trans
+&trans  &trans     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                                                         &kp PG_DN  &kp LS(TAB)     &kp BACKSPACE  &kp TAB    &trans     &trans
+                   &trans      &trans             &trans                                                                                     &trans          &trans         &trans
+                                                                            &trans  &trans  &trans  &trans  &kp LS(RET)  &kp RET
             >;
         };
 
